@@ -1,1 +1,1 @@
-https://github.com/HexxKing/snakes_cafe/pull/1
+[Snakes Cafe Pull Request Submission](https://github.com/HexxKing/snakes_cafe/pull/1)
