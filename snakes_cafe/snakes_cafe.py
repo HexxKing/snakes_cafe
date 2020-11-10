@@ -32,12 +32,7 @@ def list_items(dict):
     print(key)
 
 def added_msg(order, list):
-# if the order matches a key in any of the dicts, then add one to its value
-# ** 1 order of Wings have been added to your meal **
-# def ask_again(list):
-  # while item in list == True:
     for item in list:
-    # if order in item:
       while order in item:
         value = item[order] + 1
         item[order] = value
@@ -47,13 +42,8 @@ def added_msg(order, list):
           quantity = "orders"
         print("** " + str(value) + " " + quantity + " of " + order + " have been added to your meal **")
         order = input(">")
-    # added_msg(order)
       if order == "quit":
           break
-
-
-
-
 
 # Invoke =====================================================
 print(divider)
@@ -80,4 +70,3 @@ print(divider)
 print(border + " What would you like to order? " + border)
 response = input(">")
 added_msg(response, all_items)
-# ask_again(all_items)
